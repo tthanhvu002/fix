@@ -1,0 +1,98 @@
+
+.key-feature-container {
+    padding: 130px 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .key-feature-list {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    max-width: 1460px;
+    align-items: center;
+  }
+  .key-feature-item {
+    width: calc(19% - 19px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .key-feature-container .section-text{
+    text-align: center;
+  }
+  .key-feature-item-img  {
+     border-radius: 50%;
+      padding: 42px;
+      background-color: #fff;
+      box-shadow: 1px 3px 15px  #ccc;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .key-feature-item-img img {
+    width: 35px;
+    height: 35px;
+    margin: 0;
+  }
+  .key-feature-item p {
+    margin-top: 15px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  
+ 
+  @media screen and (min-width: 992px) and (max-width: 1199.98px){
+
+  }
+  @media screen and (min-width: 768px) and (max-width: 991.98px) {
+    .key-feature-list {
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+    .key-feature-item {
+      width: 25%;
+    }
+    .key-feature-container {
+    padding-left: 50px;
+    padding-right: 50px;
+    }
+  }
+  @media screen and (max-width: 767.98px) {
+    .key-feature-container {
+      margin: 0 30px;
+    }
+    .key-feature-list {
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+    .key-feature-item {
+      text-align: center;
+      width: calc(45% - 20px);
+    }
+    .key-feature-container {
+      padding-left: 10px;
+      padding-right: 10px;
+      }
+    .key-feature-item-img {
+      padding: 40px;
+    }
+  }
+
+
+
+  @media (max-width: 575.98px) { }
+
+  /* Small devices (landscape phones, less than 768px) */
+  @media (max-width: 767.98px) {  }
+  
+   /* Medium devices (tablets, less than 992px) */

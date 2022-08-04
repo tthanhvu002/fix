@@ -1,0 +1,122 @@
+.woo {
+    color: #fff;
+    background: url(/img/woo-bg2.psd.png);
+    object-fit: cover;
+    
+    
+  }
+  .woo-container{
+    width: 100%;
+    display: flex;
+   justify-content: center;
+   
+    
+  }
+  .woo-container__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left:  50px;
+    /* padding: 30px 120px 30px 120px; */
+    
+  }
+  .woo-img {
+    position: relative;
+    top: -28px; 
+    bottom: -100px;
+    max-width: 900px;
+    max-height: 667px;  
+    flex: 50%;
+  }
+  .woo-img img {
+    height: 120%;
+    width: 100%;
+  }
+  .woo .section-heading {
+    color: #fff;
+   
+  }
+  .woo .section-text {
+  
+    color: rgb(232, 229, 229);
+    text-shadow: 1px 2px 3px rgb(77, 77, 77);
+  }
+  @media screen and (min-width: 1200px) and (max-width: 1399.98px){
+    .woo-img {
+      height: 550px;
+      width: 700px;
+      margin-left: 120px;
+      
+    }
+
+    .woo-container__content{
+      padding: 0 30px;
+    }
+  }
+  @media screen and (min-width: 992px) and (max-width: 1199.98px){
+    
+    .woo-img {
+      height: 450px;
+      width: 550px;
+      margin-left: 90px;
+      
+    }
+
+  .woo-container__content{
+    padding:  30px;
+    max-width: 450px;
+  }
+  }
+  /* tablet */
+  @media screen and (min-width: 768px) and (max-width: 991.98px) {
+   
+    .woo-container__content{
+      padding: 0 50px;
+    }
+    .woo-img {
+      width: 60%;
+      margin-left: 90px;
+    }
+  }
+  /* mobile */
+  @media screen and (max-width: 767.98px) {
+    .woo {
+      display: flex;
+      justify-content: center;
+      
+    }
+    .woo-container__content {
+      
+      flex-basis: 50%;
+      padding: 50px 0;
+      
+    }
+    .woo-img {
+      display: none;
+    
+    }
+  }
+  @media (min-width: 1400px) { 
+    .woo-container{
+      padding: 0 15px;
+    }
+   }
+  
+
+  @media (min-width: 576px) {  }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+ /* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1399.98px) {
+     .woo-img{
+       flex-basis: 50%;
+     }
+  
+  }
+
+ /* XX-Large devices (larger desktops, 1400px and up) */

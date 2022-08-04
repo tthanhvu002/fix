@@ -1,0 +1,44 @@
+.testimonial {
+    margin-top: 60px;
+    background-color: rgba(215, 210, 210, 0.466);
+    padding: 150px 0;
+    height: 500px;
+  }
+  
+  .testimonial-container {
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .testimonial .testimonial-logo img {
+    filter: brightness(70%);
+  }
+  .testimonial b {
+    font-size: larger;
+  }
+  .testimonial p {
+    max-width: 600px;
+    text-align: center;
+    font-style: oblique;
+    color: #474748;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+
+  @media (min-width: 576px) {  }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+ /* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
+  

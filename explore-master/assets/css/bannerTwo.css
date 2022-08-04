@@ -1,0 +1,46 @@
+.bannerTwo {
+    background-image: url(/img/bnbg2.png);
+    height: 290px;
+    position: relative;
+    box-shadow: 1px 3px 5px white;
+}
+  .bannerTwo-text {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.772);
+  }
+  .bannerTwo-text span {
+    font-style: italic;
+    margin-right: 8px;
+    color: #ffdd00;
+  }
+  .bannerTwo-heading {
+    margin-top: 10px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+  } 
+
+
+  @media (max-width: 575.98px) { }
+
+  /* Small devices (landscape phones, less than 768px) */
+  @media (max-width: 767.98px) { 
+    .bannerTwo-heading{
+      font-size: 35px;
+    }
+   }
+  
+   /* Medium devices (tablets, less than 992px) */
+  @media (max-width: 991.98px) {  }
+  
+   /* Large devices (desktops, less than 1200px) */
+  @media (max-width: 1199.98px) {  }
+  
+   /* X-Large devices (large desktops, less than 1400px) */
+  @media (max-width: 1399.98px) {  }
